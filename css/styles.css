@@ -1,0 +1,10 @@
+#login.login{
+    width: 150px;
+    border: solid 5px rgb(35, 13, 241);
+    border-style: inset;
+    display: flex;
+    margin-left: 155%;
+}
+#menu-int.menu-margen-interno{
+display: flex;
+}

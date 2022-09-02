@@ -1,0 +1,18 @@
+
+*{
+    background-image: url("fondocodigo.jpg");
+    font-size: 20px;
+    color: rgb(0, 225, 255);
+}
+
+#logo{
+    font-size: 35px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    flex: 1 1 auto;
+    display: flex;
+}
+#exampleInputEmail1.form-control{
+    color:rgb(255, 194, 222);
+}
+
