@@ -1,8 +1,15 @@
 *{
     padding: 1px;
+    box-sizing:border-box;
    
 }
 
+body {
+  background: #dd5e89;
+  background: -webkit-linear-gradient(to left, #dd5e89, #f7bb97);
+  background: linear-gradient(to left, #dd5e89, #f7bb97);
+  min-height: 100vh;
+}
 #login.login{
     width: 10%;
     border: solid 5px rgb(35, 13, 241);
@@ -18,11 +25,14 @@
 display: flex;
 justify-content: center;
 border: solid 2px gray;
+box-shadow: 10px 10px 10px gray;
+background:aqua;
 }
 .navbar.navbar-expand-lg.navbar-light.bg-light{
     display: flex;
     width: 100%;
     justify-content: center;
+    background: rgb(160, 226, 226);
     
 }
 #navbarNavAltMarkup.collapse.navbar-collapse{
@@ -32,7 +42,8 @@ border: solid 2px gray;
 }
 .imgbanner{
 width: 100%;
-height: 200px;
+height: 300px;
+background: blue;
 
 }
 .card-img-top{
@@ -40,5 +51,50 @@ height: 200px;
    height: 170px;
    border: solid gray 5px;
    border-radius: 105px;
+   align-items: flex-start;
   
 }
+
+
+.buttonClass {
+    font-size:15px;
+    font-family: Arial;
+    width: 56px;
+    height: 60px;
+    border-width: 1px;
+    color: rgb(245, 231, 231);
+    border-color:#a511c0;
+    font-weight:bold;
+    border-bottom: #f7bb97;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    border-bottom-left-radius:6px;
+    border-bottom-right-radius:6px;
+    background: linear-gradient(#c123de, #a20dbd);
+    
+}
+#Experiencia{
+    padding: 2px;
+    margin: auto;
+    
+
+}
+
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #04AA6D;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.php {width: 60%; background-color: #808080;} /* Dark Grey *
