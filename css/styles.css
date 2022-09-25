@@ -4,96 +4,61 @@
    
 }
 
-body {
-  background: #dd5e89;
-  background: -webkit-linear-gradient(to left, #dd5e89, #f7bb97);
-  background: linear-gradient(to left, #dd5e89, #f7bb97);
-  min-height: 100vh;
-}
-#login.login{
-    width: 10%;
-    border: solid 5px rgb(35, 13, 241);
-    border-style: inset;
-    align-self: right;
-    font-size: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-#home.inicio{
-    margin-left: 50%;
-}
-#menu-int.menu-margen-interno{
-display: flex;
-justify-content: center;
-border: solid 2px gray;
-box-shadow: 10px 10px 10px gray;
-background:aqua;
-}
-.navbar.navbar-expand-lg.navbar-light.bg-light{
+#items{
     display: flex;
+    justify-content: end;
+    align-items:center;
+    
+}
+#itemsnav{}
+
+img.imgbanner{
+    height: 400px;
     width: 100%;
-    justify-content: center;
-    background: rgb(160, 226, 226);
+}
+#fotoperfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border-style:groove;
+    border-color: purple;
+    position: absolute;
+    bottom: 150px;
+
+}
+h4#titulocarta{
+    display: flex;
+    padding-top: 100px;
+   
+}
+#btnedit{
+ position: absolute;
+ right: 100px;
+ bottom: 100px;
+border-radius: 10px;
+}
+
+#AcercaDe{
+    border-radius: 10px;
     
 }
-#navbarNavAltMarkup.collapse.navbar-collapse{
-    align-items: center;
-    align-content: space-between;
+
+.container-fluid{
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
 
 }
-.imgbanner{
-width: 100%;
-height: 300px;
-background: blue;
-
+#botones{
+   padding-left: 85%;
+   justify-content:center;
 }
-.card-img-top{
-   width: 100%;
-   height: 170px;
-   border: solid gray 5px;
-   border-radius: 105px;
-   align-items: flex-start;
-  
+#login{
+    border-style:groove;
+    border-radius: 15px;
+    border-color: violet;
+    font-weight: 500;
 }
-
-
-.buttonClass {
-    font-size:15px;
-    font-family: Arial;
-    width: 56px;
-    height: 60px;
-    border-width: 1px;
-    color: rgb(245, 231, 231);
-    border-color:#a511c0;
-    font-weight:bold;
-    border-bottom: #f7bb97;
-    border-top-left-radius:6px;
-    border-top-right-radius:6px;
-    border-bottom-left-radius:6px;
-    border-bottom-right-radius:6px;
-    background: linear-gradient(#c123de, #a20dbd);
-    
-}
-#Experiencia{
-    padding: 2px;
-    margin: auto;
-    
-
-}
-
-
-/* Container for skill bars */
-.container {
-  width: 100%; /* Full width */
-  background-color: #ddd; /* Grey background */
-}
-
-.skills {
-  text-align: right; /* Right-align text */
-  padding-top: 10px; /* Add top padding */
-  padding-bottom: 10px; /* Add bottom padding */
-  color: white; /* White text color */
-}
-
 .html {width: 90%; background-color: #04AA6D;} /* Green */
 .css {width: 80%; background-color: #2196F3;} /* Blue */
 .js {width: 65%; background-color: #f44336;} /* Red */

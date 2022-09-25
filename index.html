@@ -12,27 +12,27 @@
 </head>
 <body>
     <div class="menu-margen-interno" id="menu-int">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Argentina Programa</a>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark " id="items">
+    <a class="navbar-brand p-4" href="#"> Argentina Programa</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
+    <div class="collapse navbar-collapse me-auto mb-1 mb-lg-0" id="itemsnav">
+      <div class="navbar-nav ">
         <div id="home" class="inicio">
-        <a class="nav-item nav-link active" href="#">Home <span class="sr-only"></span></a>
+        <a class="nav-item nav-link p-sm-4 " href="#">Home </a>
       </div>
-        <a class="nav-item nav-link" href="#">Acerca de mí</a>
+        <a class="nav-item nav-link p-sm-4 " href="#">Acerca de mí</a>
         <li class="nav-item">
-            <a title="Github" class="nav-link active" aria-current="page" rel="noopener" href="https://github.com/muurix" target="_blank"><i class="bi bi-github"></i> GitHub</a>
+            <a title="Github" class="nav-link p-sm-4 " aria-current="page" rel="noopener" href="https://github.com/muurix" target="_blank"><i class="bi bi-github"></i> GitHub</a>
         </li>
-        <a class="nav-item nav-link" href="#">Redes Sociales</a>
+        <a class="nav-item nav-link p-sm-4" href="#">Redes Sociales</a>
        
       </div>
     </div>
     <div class="login" id="login">
-      <a class="nav-item nav-link"  href="formulario.html">LOGIN</a>
+      <a class="nav-item nav-link "  href="formulario.html">LOGIN</a>
       
       </div>
   </nav>
@@ -40,66 +40,131 @@
 <div class="banner" id="img">
   <img class="imgbanner" src="css/fondo2.png" alt="">
 </div>
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="css/fotoperfil.jpg" alt="Card image cap">
-      <div class="card-body">
-        <h4 class="card-title">Muriel Gomez</h4>
+
+
+    <div class="card" style="width: 100%;">
+      <img class="card-img-top" id="fotoperfil" src="css/fotoperfil.jpg" alt="Card image cap">
+
+      <div class="card-body" id="cartatext" >
+        <h4 class="card-title" id="titulocarta">Muriel Gomez</h4>
         <p class="card-text">Informacion de contacto. lorem. </p>
-        <a href="#" class="buttonClass">Edit</a>
+        <button type="button" class="btn btn-primary" id="btnedit">Editar</button>
+        <button type="button" class="btn btn-success">Añadir Sección</button>
+        <button type="button" class="btn btn-light">Más</button>
       </div>
+
     </div>
+
+    <div class="container-fluid" id="AcercaDe">
+  <h5> Acerca De</h5>
+  <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio beatae animi voluptatum. Quisquam. 
+    <div id="botones">
+      <button type="button" class="btn btn-success">Add</button>
+      <button type="button" class="btn btn-outline-dark" >Editar</button>
+      <button type="button" class="btn btn-close"> </button>
+    </div>
+</div>
 <div class="container-fluid" id="experiencia">
   <h5> Experiencia</h5>
-  <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio beatae animi voluptatum. Quisquam. <a href="#" class="buttonClass">Edit</a>
-    <a href="#" class="buttonClass">Add</a>
-    <a href="#" class="buttonClass">Delete</a></p>
-  
+  <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio beatae animi voluptatum. Quisquam.
+    <div id="botones">
+      <button type="button" class="btn btn-success">Add</button>
+      <button type="button" class="btn btn-outline-dark" >Editar</button>
+      <button type="button" class="btn btn-close"> </button>
+  </div>
 </div>
+
 <div class="container-fluid" id="Educacion">
   <h5> Educacion</h5>
-  <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio beatae animi voluptatum. Quisquam. <a href="#" class="buttonClass">Edit</a>
-    <a href="#" class="buttonClass">Add</a>
-    <a href="#" class="buttonClass">Delete</a></p>
+  <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p> 
   
-</div>
-<div class="container-fluid" id="proyectos">
-  <h5> Proyectos</h5>
-  <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio beatae animi voluptatum. Quisquam. <a href="#" class="buttonClass">Edit</a>
-    <a href="#" class="buttonClass">Add</a>
-    <a href="#" class="buttonClass">Delete</a></p>
+    <div id="botones">
+      <button type="button" class="btn btn-success">Add</button>
+      <button type="button" class="btn btn-outline-dark" >Editar</button>
+      <button type="button" class="btn btn-close"> </button>
+    </div>
+
+    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p> 
   
+    <div id="botones">
+      <button type="button" class="btn btn-success">Add</button>
+      <button type="button" class="btn btn-outline-dark" >Editar</button>
+      <button type="button" class="btn btn-close"> </button>
+    </div>
 </div>
+
 
 <div class="container-fluid" id="Hard-skill">
   <h5> Hard-skills & Soft-skill</h5>
-  <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio beatae animi voluptatum. Quisquam. <a href="#" class="buttonClass">Edit</a>
-    <a href="#" class="buttonClass">Add</a>
-    <a href="#" class="buttonClass">Delete</a></p>
+  <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio beatae animi voluptatum. Quisquam. 
+    <div id="botones">
+      <button type="button" class="btn btn-success">Add</button>
+      <button type="button" class="btn btn-outline-dark" >Editar</button>
+      <button type="button" class="btn btn-close"> </button>
+    </div>
+
     <p>HTML</p>
 <div class="container">
   <div class="skills html">90%</div>
+  <div id="botones">
+    <button type="button" class="btn btn-success">Add</button>
+    <button type="button" class="btn btn-outline-dark" >Editar</button>
+    <button type="button" class="btn btn-close"> </button>
+  </div>
 </div>
 
 <p>CSS</p>
 <div class="container">
   <div class="skills css">80%</div>
+  <div id="botones">
+    <button type="button" class="btn btn-success">Add</button>
+    <button type="button" class="btn btn-outline-dark" >Editar</button>
+    <button type="button" class="btn btn-close"> </button>
+  </div>
 </div>
 
 <p>JavaScript</p>
 <div class="container">
   <div class="skills js">65%</div>
+  <div id="botones">
+    <button type="button" class="btn btn-success">Add</button>
+    <button type="button" class="btn btn-outline-dark" >Editar</button>
+    <button type="button" class="btn btn-close"> </button>
+  </div>
 </div>
 
 <p>PHP</p>
 <div class="container">
   <div class="skills php">60%</div>
+  <div id="botones">
+    <button type="button" class="btn btn-success">Add</button>
+    <button type="button" class="btn btn-outline-dark" >Editar</button>
+    <button type="button" class="btn btn-close"> </button>
+  </div>
 </div>
   
+
+<div class="container-fluid" id="proyectos">
+  <h5> Proyectos</h5>
+  <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio beatae animi voluptatum. Quisquam. 
+    <div id="botones">
+      <button type="button" class="btn btn-success">Add</button>
+      <button type="button" class="btn btn-outline-dark" >Editar</button>
+      <button type="button" class="btn btn-close"> </button>
+    </div>
+</div>
+
+<footer class=" text-light bg-dark text-center">
+@Copyright 2022
+<br>
+Muriel Gomez
+</footer>
 </div>
 
                 
       
 
-  
+  <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
